@@ -1,0 +1,258 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    -border: 1px solid red;
+    -box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: auto;
+}
+.line{
+    -border: 1px solid red;
+    height: 40px;
+    background-color: #000;
+}
+.banner{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    padding-block: 55px;
+}
+.banner h1{
+    font-size: 42px;
+}
+.blog{
+    -border: 1px solid red;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.bloging{
+    border: 1px solid red;
+    color: #000;
+}
+
+.box {
+    -border: 1px solid red;
+    max-width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.box img {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(25%);
+    object-fit: cover;
+}
+.overlay-text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 220px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -padding: 15px 10px;
+    -background: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4));
+    color: #fff;
+    -opacity: 0;
+    box-sizing: border-box;
+    transition: 1s;
+    -border: 1px solid red;
+    padding-top: 300px;
+}
+.overlay-text .courses-text {
+    -border: 1px solid red;
+    padding-top: 25px;
+    transition: 1s;
+}
+.box:hover .courses-text {
+    padding-top: 0;
+} 
+.box:hover .overlay-text {
+    opacity: 1;
+    bottom: 0;
+    padding-top: 18px;
+    cursor: pointer;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4));
+}
+.hii {
+    font-size: 16px;
+    margin: auto;
+    text-align: center;
+}
+.trending h1{
+    display: inline-block;
+}
+.trending ul{
+    display: flex;
+    justify-content: end;    
+}
+.trending ul li{
+    list-style: none;
+}
+
+/***************Teastimonials**************/
+
+.testimonials{
+    background-color: #F3EAD8;
+}
+.testimonials .item {
+    -border: 1px solid red; 
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+}
+
+.testimonials .item p {
+    font-size: 16px;
+    -border: 1px solid red;
+    line-height: 32px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 22px;
+
+}
+
+.testimonials .item h3 {
+    -margin: 0 0 3px;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.testimonials .owl-dots {
+    -border: 1px solid red;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.testimonials .owl-carousel .owl-nav button.owl-next,
+.testimonials .owl-carousel .owl-nav button.owl-prev,
+.testimonials .owl-carousel button.owl-dot {
+    -border: 1px solid red;
+    display: flex;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: #ddd;
+}
+
+.testimonials .innertest .owl-dot.active {
+    background-color: #3B5D50;
+}
+
+.innertest img {
+    border-radius: 50px;
+    max-width: 90px;
+    margin: 0 auto 35px;
+}
+.testimonials .owl-nav button.owl-next, 
+.testimonials .owl-nav button.owl-prev {
+    background-color: #3B5D50;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.testimonials .owl-nav button.owl-prev {
+    left: 10px;
+}
+
+.testimonials .owl-nav button.owl-next {
+    right: 10px;
+}
+
+/***************Teastimonials**************/
+
+/***************Latest News**************/
+
+.latest{ 
+    background-color: #F6F6F6;
+}
+.latest-blog .card{
+    background-color: #F6F6F6;
+}
+.latest-blog a{
+    color: #000;
+    font-weight: 600;
+}
+.py-60 {
+    padding: 60px 0;
+}
+
+/***************Latest News**************/
+
+/***************Contain**************/
+
+.contain p {
+    font-size: 18px;
+    font-weight: 500;
+}
+.contain .counter-value {
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    -border: 1px solid red;
+}
+
+/***************Containt**************/
+
+/***************Footer**************/
+
+.footer{
+    -border: 1px solid red;
+    height: 81vh;
+    background-color: #171613;
+}
+.footer-icon{
+    font-size: 25px;
+    color: #677F8B;
+}
+.ds8 {
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+.footer-blog ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 34px;
+    color: #BBB9B5;
+}
+.top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+  }
+/***************Footer**************/
+
+/***************Men**************/
+
+.category{
+    -border: 1px solid red;
+    height: 900px;
+}
+.category-line{
+    background-color: #F3EAD8;
+}
+.category-img{
+    height: 900px;
+}
+
+/***************Men**************/
